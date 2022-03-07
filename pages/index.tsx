@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 
 import Head from "next/head";
+import Image from "next/image";
 
 import useScrollPosition from "../hooks/useScrollPosition";
 
@@ -45,38 +46,22 @@ const Home: NextPage = () => {
           <div className="max-w-6xl mx-auto md:flex md:items-center md:justify-between">
             <div className="md:flex-1 md:mr-6">
               <h1 className="text-4xl font-bold leading-tight text-white md:text-5xl">
-                Hello I'am Saurav
+                Hello I&apos;am Saurav
               </h1>
               <p className="mt-4 text-lg text-white">
-                I'am a Freelance web3 developer based out of Bangalore, India.
+                I&apos;am a Freelance web3 developer based out of Bangalore,
+                India.
               </p>
             </div>
             <div className="md:flex-1">
-              <img
+              <Image
                 src="https://res.cloudinary.com/thirus/image/upload/v1632162912/logos/chat_ys7mog.svg"
                 alt="Chat with loved ones"
               />
             </div>
           </div>
         </section>
-        <section className="min-h-screen px-8 pt-32 pb-16 bg-violet-900 md:px-12">
-          <div className="max-w-6xl mx-auto md:flex md:items-center md:justify-between">
-            <div className="md:flex-1 md:mr-6">
-              <h1 className="text-4xl font-bold leading-tight text-white md:text-5xl">
-                Hello I'am Saurav
-              </h1>
-              <p className="mt-4 text-lg text-white">
-                I'am a Freelance web3 developer based out of Bangalore, India.
-              </p>
-            </div>
-            <div className="md:flex-1">
-              <img
-                src="https://res.cloudinary.com/thirus/image/upload/v1632162912/logos/chat_ys7mog.svg"
-                alt="Chat with loved ones"
-              />
-            </div>
-          </div>
-        </section>
+
         <section id="features" className="min-h-screen"></section>
         <section id="about" className="min-h-screen bg-gray-100"></section>
         <section id="contact" className="min-h-screen"></section>
